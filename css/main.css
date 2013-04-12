@@ -3,7 +3,23 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body {
+  padding-top:0px;
+  border-top: solid 10px #00aed1;
+}
+.hero-unit{
+    background: white;
+    line-height:40px;
+    padding:0px;
+    margin: 0px;
+}
+.hero-unit p {
+    margin-top:20px;
+    font-size: 24px;
+}
+.call{
+    margin-top: -80px;
+}
 #ipad{
   background-image: url('../img/iPad.png');
   width: 924px;
