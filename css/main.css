@@ -27,7 +27,7 @@ body {
 .btn-primary{
     background-color:#08aed1;
     background-image:-webkit-gradient(linear,0 0,0 100%,from(#08aed1),to(#08aed1));
-    background-image: linear-gradient(to bottom, #0088CC, #08aed1);
+    background-image: linear-gradient(to bottom, #08aed1, #08aed1);
 }
 .call{
   margin:-95px 195px 0 0;
