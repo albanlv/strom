@@ -24,6 +24,9 @@ body {
 .hero-unit.arg h1{
     float:left;
 }
+.btn-primary{
+    backgroung-image:-webkit-gradient(linear,0 0,0 100%,from(#08aed1),to(#08aed1));
+}
 .call{
   margin:-95px 195px 0 0;
 }
