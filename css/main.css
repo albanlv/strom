@@ -19,10 +19,10 @@ body {
     font-size: 24px;
 }
 .call{
-   position: fixed;
-   top: 0;
-   right: 30%;
-   
+  margin:-95px 195px 0 0;  
+}
+.btn-large{
+    padding: 21px;
 }
 #ipad{
   background-image: url('../img/iPad.png');
