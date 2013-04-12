@@ -4,26 +4,31 @@
    Author's custom styles
    ========================================================================== */
 body {
-  padding-top:0px;
+  padding-top:20px;
   border-top: solid 10px #00aed1;
+  z-index: 100;
 }
 .hero-unit{
     background: white;
     line-height:40px;
     padding:0px;
-    margin: 0px;
+    margin: 0 0 0 100px;
 }
 .hero-unit p {
     margin-top:20px;
     font-size: 24px;
 }
 .call{
-    margin-top: -80px;
+   position: fixed;
+   top: 0;
+   right: 30%;
+   
 }
 #ipad{
   background-image: url('../img/iPad.png');
   width: 924px;
   height: 728px;
+  margin-left:80px;
 }
 .ipad-inside{
   width: 715px;
