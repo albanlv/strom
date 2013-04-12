@@ -18,8 +18,14 @@ body {
     margin-top:20px;
     font-size: 24px;
 }
+.hero-unit h1 {
+    margin-bottom:0px;
+}
+.hero-unit.arg h1{
+    float:left;
+}
 .call{
-  margin:-95px 195px 0 0;  
+  margin:-95px 195px 0 0;
 }
 .btn-large{
     padding: 21px;
@@ -35,8 +41,55 @@ body {
   height: 535px;
   margin: 95px 0 0 105px;
 }
-
-
+.tab-switcher {
+  position: relative;
+  padding-top:140px;
+}
+.tab {
+  float: left;
+}
+.tab-switcher label {
+  padding: 14px 30px;
+  border-radius: 8px 8px 0 0;
+  border: solid 1px #ccc;
+  background: white;
+  display: block;
+  margin-left: -1px;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.tab-switcher label:hover {
+  cursor: pointer;
+}
+.tab-content {
+  position: absolute;
+  top: 220px;
+  left: 0;
+  padding: 20px;
+  background: #fff;
+  width: 980px;
+  border: solid 1px #ccc;
+  border-top: none;
+  color: #555;
+  margin-left: -1px;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.tab-switcher input[type=radio] {
+  display: none;
+}
+.tab-switcher input[type=radio]:checked ~ .tab-content {
+  z-index: 10;
+  opacity: 1;
+}
 
 
 
