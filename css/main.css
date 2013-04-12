@@ -25,6 +25,7 @@ body {
     float:left;
 }
 .btn-primary{
+    background-color:#08aed1;
     background-image:-webkit-gradient(linear,0 0,0 100%,from(#08aed1),to(#08aed1));
 }
 .call{
