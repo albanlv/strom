@@ -3,6 +3,7 @@
    Author's custom styles
    ========================================================================== */
 body {
+  font-family: 'PT Sans', sans-serif;
   padding-top:20px;
   padding-bottom:20px;
   border-top: solid 5px #00aed1;
@@ -35,11 +36,14 @@ body {
     background-image:-webkit-gradient(linear,0 0,0 100%,from(#08aed1),to(#08aed1));
     background-image: linear-gradient(to bottom, #08aed1, #08aed1);
 }
+.appstore{
+  margin:-70px 195px 0 0;
+}
 .call{
   margin:-95px 195px 0 0;
 }
 .btn-large{
-    padding: 21px;
+    padding: 21px 35px;
 }
 #ipad{
   width: 924px;
