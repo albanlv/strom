@@ -1,12 +1,18 @@
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 body {
   padding-top:20px;
-  border-top: solid 10px #00aed1;
-  z-index: 100;
+  padding-bottom:20px;
+  border-top: solid 5px #00aed1;
+  border-bottom: solid 5px #00aed1;
+  background-image: url('../img/background.png');
+}
+.container{
+    background-color:white;
+    border-radius:30px;
+    padding:10px;
 }
 .hero-unit{
     background: white;
@@ -55,7 +61,8 @@ body {
 }
 .tab-switcher {
   position: relative;
-  padding-top:140px;
+  padding:20px 0 0 100px;
+  height:820px;
 }
 .tab {
   float: left;
@@ -78,9 +85,9 @@ body {
 }
 .tab-content {
   position: absolute;
-  top: 220px;
+  top: 120px;
   left: 0;
-  padding: 20px;
+  padding: 20px 20px 0 110px;
   background: #fff;
   width: 980px;
   color: #555;
@@ -99,6 +106,10 @@ body {
 .tab-switcher input[type=radio]:checked ~ .tab-content {
   z-index: 10;
   opacity: 1;
+}
+
+footer{
+  text-align:center;
 }
 
 
