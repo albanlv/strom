@@ -36,15 +36,22 @@ body {
     padding: 21px;
 }
 #ipad{
-  background-image: url('../img/iPad.png');
   width: 924px;
   height: 728px;
   margin-left:80px;
+  background-image: url('../img/iPad.png');
+  position: relative;
 }
 .ipad-inside{
   width: 715px;
   height: 535px;
   margin: 95px 0 0 105px;
+}
+.carousel-inner>.item{
+    -webkit-transition: .000001s;
+    -o-transition: .000001s;
+    moz-transition: .000001s;
+    transition: .000001s;
 }
 .tab-switcher {
   position: relative;
